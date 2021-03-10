@@ -1,4 +1,8 @@
 body{
-	text-align: center;
 	width: 1000px;
+}
+footer{
+	background-color: #222931;
+	color: #5f656d;
+	height: 40px;
 }
