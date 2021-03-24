@@ -6,16 +6,20 @@ footer{
 	background-color: #222931;
 	color: #aeb6be;
 	height: 60px;
+	text-align: right;
 }
 .entirePage{
 	width: 1000px;
 }
 nav{
-	width: 100%;
+	width: 1000px;
 	background-color: #222931;
 	color: #fff;
 	height: 50px;
     text-decoration: none;
+	cursor: pointer;
+	position: absolute;
+	top: 50px;
 }
 nav:hover{
 	background-color: #ffe718;
@@ -28,6 +32,7 @@ div{
 	width: 300px;
 	height: 100px;
 	background-color: #ffe718;
+	cursor: pointer;
 }
 .deals:hover{
 	background-color: #222931;
@@ -38,6 +43,7 @@ div{
 	height: 100px;
 	background-color: #ffe718;
 	margin: 0 auto;
+	cursor: pointer;
 }
 .diensten:hover{
 	background-color: #222931;
@@ -47,10 +53,17 @@ div{
 	width: 300px;
 	height: 100px;
 	background-color: #ffe718;
+	cursor: pointer;
 }
 .contact:hover{
 	background-color: #222931;
 	color: #fff;
+}
+.gelebalk{
+	background-color: #ffe718;
+	width: 100%;
+	height: 140px;
+	margin-bottom: 60px;
 }
 h2{
 	font-size: 16px;
@@ -64,6 +77,8 @@ img:nth-of-type(1){
 }
 img:nth-of-type(2){
 	height: 413px;
+	position: relative;
+	right: 0px;
 }
 img:nth-of-type(3){
 	width: 300px;
